@@ -19,6 +19,9 @@ public class Avion {
     @Column(name = "matricule")
     private String matricule;
 
+    @Column(name = "photo")
+    private String photo;
+
     public Integer getId() {
         return id;
     }

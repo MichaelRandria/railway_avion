@@ -78,3 +78,5 @@ INSERT INTO Kilometrage(idAvion,dateKilometrage,debutKm,finKm) VALUES
 
 INSERT INTO Kilometrage(idAvion,dateKilometrage,debutKm,finKm) VALUES
     (1,'2022-01-02',1510,1520);
+
+ALTER TABLE Avion ADD photo VARCHAR(255);
